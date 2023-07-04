@@ -1,9 +1,10 @@
 import { useEffect } from "react";
+import { Carousel } from "flowbite-react";
 
 export default function VSA() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   return (
     <>
       <div className="overflow-x-hidden w-full">
@@ -93,18 +94,38 @@ export default function VSA() {
                 County, California to plan and be apart of the UVSA Tet
                 Festival.
               </div>
-              <div className="text-md mb-2">
+              <div className="text-md mb-12">
                 I also had the privilege of planning and hosting our
                 organization's second external event, Wild n' Culture, a play on
                 an American TV show based around improvisational comedy games.
                 Although our school is one of the furthest from the Union, we
                 managed to have a full house!
               </div>
+              <div className="text-lg font-semibold mb-2">Gallery</div>
               <div className="flex justify-center">
-                <img
+                {/* <img
                   src="http://localhost:3000/static/img/wild-n-culture.jpg"
                   className="rounded-lg my-5 w-full max-w-[50rem]"
-                ></img>
+                ></img> */}
+              </div>
+              <div className="w-full h-[24rem] xl:h-[45rem]">
+                <Carousel slideInterval={5000}>
+                  <img
+                    alt="..."
+                    src="http://localhost:3000/static/img/film-fest.jpg"
+                    className="rounded-lg"
+                  />
+                  <img
+                    alt="..."
+                    src="http://localhost:3000/static/img/uvsa-camp.jpg"
+                    className="rounded-lg xl:h-full"
+                  />
+                  <img
+                    alt="..."
+                    src="http://localhost:3000/static/img/wild-n-culture-2.jpg"
+                    className="rounded-lg"
+                  />
+                </Carousel>
               </div>
             </div>
           </div>
