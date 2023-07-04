@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
         <img
           className="w-40 h-24"
-          src="http://localhost:3000/static/img/at-logo-transparent.png"
+          src="http://athlr.github.io/portfolio/static/img/at-logo-transparent.png"
           alt="atlogo"
         />
         <div className="text-center">

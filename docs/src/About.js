@@ -45,7 +45,7 @@ export default function About() {
             </div>
             <div className="flex justify-center w-1/2">
               <img
-                src="http://localhost:3000/static/img/aaron.jpg"
+                src="http://athlr.github.io/portfolio/static/img/aaron.jpg"
                 className="min-w-[10rem] max-w-[30rem] rounded-lg md:mt-10"
               />
             </div>
@@ -63,7 +63,7 @@ export default function About() {
                 <div className="h-1/4 photo-wrapper p-2">
                   <img
                     className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                    src="http://localhost:3000/static/img/ucsd-vsa.jpg"
+                    src="http://athlr.github.io/portfolio/static/img/ucsd-vsa.jpg"
                     alt="idunno"
                   />
                 </div>
@@ -107,7 +107,7 @@ export default function About() {
                 <div className="h-1/4 photo-wrapper p-2">
                   <img
                     className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                    src="http://localhost:3000/static/img/dem.jpg"
+                    src="http://athlr.github.io/portfolio/static/img/dem.jpg"
                     alt="idunno"
                   />
                 </div>
@@ -151,7 +151,7 @@ export default function About() {
                 <div className="h-1/4 photo-wrapper p-2">
                   <img
                     className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                    src="http://localhost:3000/static/img/marshall-logo.png"
+                    src="http://athlr.github.io/portfolio/static/img/marshall-logo.png"
                     alt="idunno"
                   />
                 </div>

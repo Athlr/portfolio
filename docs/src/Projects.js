@@ -27,7 +27,7 @@ export default function Projects() {
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                      src="http://localhost:3000/static/img/bunny-burger.jpg"
+                      src="http://athlr.github.io/portfolio/static/img/bunny-burger.jpg"
                       alt="idunno"
                     />
                   </div>
@@ -70,7 +70,7 @@ export default function Projects() {
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                      src="http://localhost:3000/static/img/manucar-logo.png"
+                      src="http://athlr.github.io/portfolio/static/img/manucar-logo.png"
                       alt="idunno"
                     />
                   </div>
@@ -112,7 +112,7 @@ export default function Projects() {
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                      src="http://localhost:3000/static/img/bunny-burger.jpg"
+                      src="http://athlr.github.io/portfolio/static/img/bunny-burger.jpg"
                       alt="idunno"
                     />
                   </div>
@@ -155,7 +155,7 @@ export default function Projects() {
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                      src="http://localhost:3000/static/img/bunny-burger.jpg"
+                      src="http://athlr.github.io/portfolio/static/img/bunny-burger.jpg"
                       alt="idunno"
                     />
                   </div>

@@ -15,7 +15,7 @@ export default function VSA() {
                 <div className="p-2">
                   <img
                     className="rounded-t-lg object-contain w-40 h-40 mt-2 mx-auto"
-                    src="http://localhost:3000/static/img/ucsd-vsa.jpg"
+                    src="http://athlr.github.io/portfolio/static/img/ucsd-vsa.jpg"
                     alt="idunno"
                   />
                 </div>
@@ -104,7 +104,7 @@ export default function VSA() {
               <div className="text-lg font-semibold mb-2">Gallery</div>
               <div className="flex justify-center">
                 {/* <img
-                  src="http://localhost:3000/static/img/wild-n-culture.jpg"
+                  src="http://athlr.github.io/portfolio/static/img/wild-n-culture.jpg"
                   className="rounded-lg my-5 w-full max-w-[50rem]"
                 ></img> */}
               </div>
@@ -112,17 +112,17 @@ export default function VSA() {
                 <Carousel slideInterval={5000}>
                   <img
                     alt="..."
-                    src="http://localhost:3000/static/img/film-fest.jpg"
+                    src="http://athlr.github.io/portfolio/static/img/film-fest.jpg"
                     className="rounded-lg"
                   />
                   <img
                     alt="..."
-                    src="http://localhost:3000/static/img/uvsa-camp.jpg"
+                    src="http://athlr.github.io/portfolio/static/img/uvsa-camp.jpg"
                     className="rounded-lg xl:h-full"
                   />
                   <img
                     alt="..."
-                    src="http://localhost:3000/static/img/wild-n-culture-2.jpg"
+                    src="http://athlr.github.io/portfolio/static/img/wild-n-culture-2.jpg"
                     className="rounded-lg"
                   />
                 </Carousel>

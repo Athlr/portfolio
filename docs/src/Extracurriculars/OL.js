@@ -8,7 +8,7 @@ export default function OL() {
               <div className="p-2">
                 <img
                   className="rounded-t-lg object-contain w-40 h-40 mt-2 mx-auto"
-                  src="http://localhost:3000/static/img/marshall-logo.png"
+                  src="http://athlr.github.io/portfolio/static/img/marshall-logo.png"
                   alt="idunno"
                 />
               </div>
