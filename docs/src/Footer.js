@@ -2,8 +2,15 @@ export default function Footer() {
   return (
     <footer className="footer p-10 bg-gray-100 text-base-content">
       <div className="w-full flex flex-col justify-center items-center">
+        <img
+          className="w-40 h-24"
+          src="http://athlr.github.io/portfolio/static/img/at-logo-transparent.png"
+          alt="atlogo"
+        />
+        <div className="w-4/12">
+          <hr className="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
+        </div>
         <div className="text-center">
-          <div className="mb-2">Contact Me</div>
           <div className="grid grid-flow-col gap-4">
             <a
               href="mailto:aatran2021@gmail.com"
@@ -56,11 +63,6 @@ export default function Footer() {
         <div className="w-4/12">
           <hr className="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
         </div>
-        <img
-          className="w-40 h-24"
-          src="http://athlr.github.io/portfolio/static/img/at-logo-transparent.png"
-          alt="atlogo"
-        />
         <div className="text-center">
           <p>
             Aaron Tran

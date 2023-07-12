@@ -9,12 +9,12 @@ export default function VSA() {
     <>
       <div className="overflow-x-hidden w-full">
         <div className="pt-10">
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center bg-gray-100 rounded-lg">
             <div className="flex flex-col md:flex-row justify-center items-center w-4/5">
-              <div className="w-full md:w-1/2 h-1/3 text-center mt-12 px-6 mb-10 md:mb-0">
+              <div className="w-full md:w-1/2 h-1/3 text-center mt-12 px-6 mb-10 md:mb-0 ">
                 <div className="p-2">
                   <img
-                    className="rounded-t-lg object-contain w-40 h-40 mt-2 mx-auto"
+                    className="rounded-full object-contain w-40 h-40 mt-2 mx-auto"
                     src="http://athlr.github.io/portfolio/static/img/ucsd-vsa.jpg"
                     alt="idunno"
                   />
@@ -50,8 +50,7 @@ export default function VSA() {
                 "The Vietnamese Student Association of UCSD strives to promote
                 and preserve the Vietnamese culture. We are dedicated to
                 providing resources and a safe space for students to unite as a
-                Vietnamese-American community. This organization is for
-                nonprofit."
+                Vietnamese-American community."
               </div>
               <div className="text-md mb-2">
                 Our foundation is built on 4 pillars:
@@ -86,28 +85,24 @@ export default function VSA() {
                 to bring attention to our organization and its events.
               </div>
               <div className="text-md mb-2">
-                In collaboration with other External Vice Presidents, we planned
-                and executed 10 school-wide events allowing for hundreds of
-                state-wide members to interact and network with one another.
-                These events included UVSA Beach Day and UVSA Friendship games.
-                We also collaborated with the Vietnamese community in Orange
-                County, California to plan and be apart of the UVSA Tet
-                Festival.
+                Working alongside other External Vice Presidents, we planned and
+                executed 10 school-wide events that brought together hundreds of
+                VSA members from across the state. These events such as UVSA
+                Beach Day and UVSA Friendship games provided opportunities for
+                members to engage with one another, fostering networking and
+                interaction. Additionally, we partnered with the Vietnamese
+                community in Orange County, California, to coordinate and
+                actively participate in the UVSA Tet Festival.
               </div>
               <div className="text-md mb-12">
-                I also had the privilege of planning and hosting our
-                organization's second external event, Wild n' Culture, a play on
-                an American TV show based around improvisational comedy games.
-                Although our school is one of the furthest from the Union, we
-                managed to have a full house!
+                Moreover, I had the privilege of planning and hosting our
+                organization's second external event, Wild n' Culture, an event
+                inspired by an American TV show based around improvisational
+                comedy games. Although our school is one of the furthest away
+                from the Union, we managed to attract a full audience,
+                showcasing the success and impact of our efforts!
               </div>
               <div className="text-lg font-semibold mb-2">Gallery</div>
-              <div className="flex justify-center">
-                {/* <img
-                  src="http://athlr.github.io/portfolio/static/img/wild-n-culture.jpg"
-                  className="rounded-lg my-5 w-full max-w-[50rem]"
-                ></img> */}
-              </div>
               <div className="w-full h-[24rem] xl:h-[45rem]">
                 <Carousel slideInterval={5000}>
                   <img
@@ -118,11 +113,16 @@ export default function VSA() {
                   <img
                     alt="..."
                     src="http://athlr.github.io/portfolio/static/img/uvsa-camp.jpg"
-                    className="rounded-lg xl:h-full"
+                    className="rounded-lg"
                   />
                   <img
                     alt="..."
                     src="http://athlr.github.io/portfolio/static/img/wild-n-culture-2.jpg"
+                    className="rounded-lg"
+                  />
+                  <img
+                    alt="..."
+                    src="http://athlr.github.io/portfolio/static/img/uvsa-tet.png"
                     className="rounded-lg"
                   />
                 </Carousel>

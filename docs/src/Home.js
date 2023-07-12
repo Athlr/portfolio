@@ -70,7 +70,7 @@ export default function Home() {
               <div className="text-lg font-semibold">Project Highlights</div>
               <div className="grid grid-cols-1 gap-x-5 gap-y-5 mt-5 mx-auto w-full lg:grid-cols-2 xl:grid-cols-3">
                 {/* Card #1 */}
-                <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96 hover:shadow-xl transition duration-300 ease-out hover:duration-300 hover:ease-in">
+                <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96 hover:shadow-xl transition duration-300 ease-out hover:duration-300 hover:ease-in ">
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
