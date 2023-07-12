@@ -122,7 +122,7 @@ export default function VSA() {
                   />
                   <img
                     alt="..."
-                    src="http://athlr.github.io/portfolio/static/img/uvsa-tet.png"
+                    src="http://athlr.github.io/portfolio/static/img/uvsa-tet.jpg"
                     className="rounded-lg"
                   />
                 </Carousel>
