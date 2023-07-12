@@ -6,6 +6,7 @@ import VSA from "./Extracurriculars/VSA";
 import DEM from "./Extracurriculars/DEM";
 import OL from "./Extracurriculars/OL";
 import Projects from "./Projects";
+import IDunno from "./Projects/iDunno";
 import Footer from "./Footer";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             </Route>
             <Route path="/projects">
               <Route path="" element={<Projects />} />
+              <Route path="/projects/iDunno" element={<IDunno />} />
             </Route>
           </Route>
         </Routes>
