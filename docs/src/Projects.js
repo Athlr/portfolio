@@ -150,19 +150,19 @@ export default function Projects() {
                     </a>
                   </div>
                 </div>
-                {/* Card #3 */}
+                {/* Card #4 */}
                 <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96">
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
-                      src="http://athlr.github.io/portfolio/static/img/bunny-burger.jpg"
+                      src="http://athlr.github.io/portfolio/static/img/primogem.jpg"
                       alt="idunno"
                     />
                   </div>
                   <div className="p-5 h-3/4">
                     <a href="#">
                       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                        Genshin Calendar{" "}
+                        Genshin Calendar
                       </h5>
                       <div className="font-normal text-base mb-2">
                         In Progress
