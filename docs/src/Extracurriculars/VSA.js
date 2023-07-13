@@ -8,7 +8,7 @@ export default function VSA() {
   return (
     <>
       <div className="overflow-x-hidden w-full">
-        <div className="pt-12">
+        <div>
           <div className="flex justify-center items-center bg-gray-100">
             <div className="flex flex-col md:flex-row justify-center items-center w-4/5">
               <div className="w-full md:w-1/2 h-1/3 text-center mt-12 px-6 mb-10 md:mb-0 ">

@@ -11,7 +11,7 @@ export default function About() {
     <div className="overflow-x-hidden w-full">
       <div className="w-full pt-10">
         <div className="flex justify-center items-center">
-          <div className="flex flex-col md:flex-row justify-center items-center w-4/5">
+          <div className="flex flex-col lg:flex-row justify-center items-center w-4/5">
             <div className="w-full md:w-1/2 h-1/3 text-center mt-12 px-6 mb-10 md:mb-0">
               <div className="text-5xl">About me</div>
               <div className="text-xl">and my journey into tech</div>
