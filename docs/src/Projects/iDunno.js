@@ -49,45 +49,44 @@ export default function iDunno() {
           <div className="flex justify-center">
             <div className="w-1/2 mb-10">
               <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
-              <div>
-                <video className="w-full">
-                  <source
-                    src="iDunno-explanation.mp4"
-                    type="video/mp4"
-                  ></source>
-                </video>
+              <div className="aspect-video w-full">
+                <iframe
+                  className="w-full h-full"
+                  src={`https://www.youtube.com/embed/xaAiMfJj2Es`}
+                  title="YouTube Video"
+                  allowFullScreen
+                ></iframe>
               </div>
+              <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
               <div className="text-lg font-semibold mb-2">Overview</div>
-              <div className="text-md mb-2">
-                "The Vietnamese Student Association of UCSD strives to promote
-                and preserve the Vietnamese culture. We are dedicated to
-                providing resources and a safe space for students to unite as a
-                Vietnamese-American community."
-              </div>
-              <div className="text-md mb-2">
-                Our foundation is built on 4 pillars:
-              </div>
-              <div className="text-md mb-2">
-                1. <span className="font-semibold">Social</span>: We set up a
-                welcoming and inclusive community for all students to meet new
-                people and build bonds with one another
-              </div>
-              <div className="text-md mb-2">
-                2. <span className="font-semibold">Cultural</span>: We design
-                and execute events that help students learn about and or stay in
-                touch with the Vietnamese culture
-              </div>
-              <div className="text-md mb-2">
-                3. <span className="font-semibold">Community</span>: We strive
-                to create a supportive and cooperative community for all
-                students regardless of race, ethnicity, or background
-              </div>
               <div className="text-md mb-12">
-                4. <span className="font-semibold">Academic</span>: We provide
-                resources for students to be academically successful
+                iDunno is your go-to random restaurant picker. Our team
+                understands that choosing a restaurant can often be a
+                challenging task, especially when you're out and about with a
+                group. Here at iDunno, we've created a simple and innovative
+                solution to take the guesswork out of your dining decisions.
+                Users can spin for a random selection tailored to their own
+                preferences, and their friends' preferences, if they choose to
+                do so! No more saying, "I don't know". iDunno is here to help
+                you pick your next dining experience. Let us take the stress out
+                of decision-making.
               </div>
-              <div className="text-lg font-semibold mb-2">My Experience</div>
-              <div className="text-md mb-2">
+              <div className="text-lg font-semibold mb-2">Project Roles</div>
+              <div className="text-md font-semibold mb-2">Team Leader</div>
+              <div className="text-md mb-6">
+                As the Team Leader, I took on the responsibility of establishing
+                a safe and productive work environment in hopes of creating a
+                cohesive and motivated group dynamic. By promoting open
+                communication, active listening, and respect for diverse
+                perspectives, I aimed to establish a supportive setting that
+                encouraged team members to freely contribute and engage with one
+                another. Through our conversations, I recognized that there was
+                a lack of interest among some teammates during our project and
+                devised a strategy to delegate tasks based on their specific
+                interests. This helped reignite their enthusiasm and engagement.
+              </div>
+              <div className="text-md font-semibold mb-2">UI/UX Design</div>
+              <div className="text-md mb-6">
                 As the External Vice President, I served as the ambassador to
                 connect UC San Diego's VSA to the Union of VSAs as well as to
                 other VSAs across Southern California. During my term it was
@@ -96,25 +95,20 @@ export default function iDunno() {
                 recently accepted to be a part of the Union. We needed traction
                 to bring attention to our organization and its events.
               </div>
-              <div className="text-md mb-2">
-                Working alongside other External Vice Presidents, we planned and
-                executed 10 school-wide events that brought together hundreds of
-                VSA members from across the state. These events such as UVSA
-                Beach Day and UVSA Friendship games provided opportunities for
-                members to engage with one another, fostering networking and
-                interaction. Additionally, we partnered with the Vietnamese
-                community in Orange County, California, to coordinate and
-                actively participate in the UVSA Tet Festival.
+              <div className="text-md font-semibold mb-2">
+                Database Design & FastAPI Endpoints
               </div>
-              <div className="text-md mb-12">
-                Moreover, I had the privilege of planning and hosting our
-                organization's second external event, Wild n' Culture, an event
-                inspired by an American TV show based around improvisational
-                comedy games. Although our school is one of the furthest away
-                from the Union, we managed to attract a full audience,
-                showcasing the success and impact of our efforts!
+              <div className="text-md mb-6">Placeholder</div>
+              <div className="text-md font-semibold mb-2">Authentication</div>
+              <div className="text-md mb-6">Placeholder</div>
+              <div className="text-md font-semibold mb-2">
+                Social Media Aspect
               </div>
-              <div className="text-lg font-semibold mb-2">Gallery</div>
+              <div className="text-md mb-6">Placeholder</div>
+              <div className="text-md font-semibold mb-2">
+                CI/CD Pipelines & Deployment
+              </div>
+              <div className="text-md mb-6">Placeholder</div>
             </div>
           </div>
         </div>
