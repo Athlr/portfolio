@@ -112,7 +112,7 @@ export default function VSA() {
                   />
                   <img
                     alt="..."
-                    src="http://athlr.github.io/portfolio/static/img/uvsa-camp.jpg"
+                    src="http://athlr.github.io/portfolio/static/img/uvsa-camp.JPG"
                     className="rounded-lg"
                   />
                   <img

@@ -109,9 +109,9 @@ export default function Projects() {
                 </div>
                 {/* Card #3 */}
                 <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96">
-                  <div className="h-1/4 photo-wrapper p-2">
+                  <div className="h-1/4 photo-wrapper p-2 pt-0">
                     <img
-                      className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
+                      className="rounded-t-lg object-contain w-32 h-32 mx-auto"
                       src="http://athlr.github.io/portfolio/static/img/projex.jpg"
                       alt="idunno"
                     />
