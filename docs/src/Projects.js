@@ -24,7 +24,7 @@ export default function Projects() {
             <div className="w-11/12 mb-10">
               <div className="grid grid-cols-1 gap-x-5 gap-y-5 mt-5 mx-auto w-full lg:grid-cols-2 xl:grid-cols-3">
                 {/* Card #1 */}
-                <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96">
+                <div className="flex flex-col justify-self-center max-w-full lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow h-96 hover:shadow-xl transition duration-300 ease-out hover:duration-300 hover:ease-in">
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
@@ -66,7 +66,7 @@ export default function Projects() {
                   </div>
                 </div>
                 {/* Card #2 */}
-                <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96">
+                <div className="flex flex-col justify-self-center max-w-full lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow h-96 hover:shadow-xl transition duration-300 ease-out hover:duration-300 hover:ease-in">
                   <div className="h-1/4 photo-wrapper p-2">
                     <img
                       className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
@@ -108,7 +108,7 @@ export default function Projects() {
                   </div>
                 </div>
                 {/* Card #3 */}
-                <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96">
+                <div className="flex flex-col justify-self-center max-w-full lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow h-96 hover:shadow-xl transition duration-300 ease-out hover:duration-300 hover:ease-in">
                   <div className="h-1/4 photo-wrapper p-2 pt-0">
                     <img
                       className="rounded-t-lg object-contain w-32 h-32 mx-auto"
@@ -123,11 +123,11 @@ export default function Projects() {
                       </h5>
                     </a>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      iDunno is a random restaurant picker created to provide a
-                      simple and innovative solution to take the guesswork out
-                      of your dining decisions. Users can spin for a random
-                      restaurant tailored to their own preferences, as well as
-                      their friends' preferences, if they choose to do so.
+                      Projex is a task and project management app that allows
+                      users to create, organize, and prioritize tasks
+                      efficiently. Each user has a personalized task board where
+                      they can view tasks that they've been assigned and create
+                      note instances for each of those tasks.
                     </p>
                     <a
                       href="#"
@@ -151,10 +151,10 @@ export default function Projects() {
                   </div>
                 </div>
                 {/* Card #4 */}
-                <div className="flex flex-col justify-self-center max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96">
-                  <div className="h-1/4 photo-wrapper p-2">
+                <div className="flex flex-col justify-self-center max-w-full lg:max-w-lg bg-white border border-gray-200 rounded-lg shadow h-96 hover:shadow-xl transition duration-300 ease-out hover:duration-300 hover:ease-in">
+                  <div className="h-1/4 photo-wrapper p-2 pt-0">
                     <img
-                      className="rounded-t-lg object-contain w-24 h-24 mt-2 mx-auto"
+                      className="rounded-t-lg object-contain w-32 h-32 mx-auto"
                       src="http://athlr.github.io/portfolio/static/img/primogem.jpg"
                       alt="idunno"
                     />
@@ -169,11 +169,10 @@ export default function Projects() {
                       </div>
                     </a>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                      iDunno is a random restaurant picker created to provide a
-                      simple and innovative solution to take the guesswork out
-                      of your dining decisions. Users can spin for a random
-                      restaurant tailored to their own preferences, as well as
-                      their friends' preferences, if they choose to do so.
+                      Genshin Calendar is a helpful tool that keeps track of
+                      time-gated materials required in order to level up and
+                      ascend characters and weapons while the user journeys
+                      throughout Teyvat.
                     </p>
                     <a
                       href="#"

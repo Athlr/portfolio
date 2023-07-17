@@ -1,7 +1,7 @@
 {
   "name": "aaron-portfolio",
   "version": "0.1.0",
-  "homepage": "https://athlr.github.io/portfolio/#",
+  "homepage": "https://athlr.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.15",
