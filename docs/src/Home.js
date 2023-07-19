@@ -18,7 +18,7 @@ export default function Home() {
             <div className="w-1/2 md:w-1/3 text-center mt-12 md:mr-10 xl:mr-0">
               <div className="text-md">Hello, I'm</div>
               <div className="text-6xl">Aaron Tran</div>
-              <div className="text-xl">
+              <div className="text-xl font-semibold">
                 <TypeAnimation
                   sequence={[
                     "Software Engineer",
@@ -57,12 +57,12 @@ export default function Home() {
             <div className="w-20">
               <Lottie animationData={HappyMail} />
             </div>
-            <div className="text-center text-md font-semibold">
+            <div className="text-center text-lg font-semibold">
               "Everyone you meet is a part of your journey"
             </div>
-            <div className="w-20">
+            {/* <div className="w-20">
               <Lottie animationData={HappyMail} />
-            </div>
+            </div> */}
           </div>
           <div className="w-full h-[24rem] lg:h-[45rem]">
             <Carousel slideInterval={5000}>

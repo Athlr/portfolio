@@ -7,6 +7,9 @@ import DEM from "./Extracurriculars/DEM";
 import OL from "./Extracurriculars/OL";
 import Projects from "./Projects";
 import IDunno from "./Projects/iDunno";
+import Manucar from "./Projects/manucar";
+import Projex from "./Projects/projex";
+import Genshin from "./Projects/genshin-calendar";
 import Footer from "./Footer";
 
 function App() {
@@ -26,6 +29,9 @@ function App() {
             <Route path="/projects">
               <Route path="" element={<Projects />} />
               <Route path="/projects/iDunno" element={<IDunno />} />
+              <Route path="/projects/manucar" element={<Manucar />} />
+              <Route path="/projects/projex" element={<Projex />} />
+              <Route path="/projects/genshin-calendar" element={<Genshin />} />
             </Route>
           </Route>
         </Routes>
