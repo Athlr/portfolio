@@ -68,7 +68,7 @@ export default function manucar() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/manucar-design.jpg"
+                src="http://athlr.github.io/portfolio/static/img/manucar-diagram.png"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
@@ -220,7 +220,7 @@ export default function manucar() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/manucar-main.jpg"
+                src="http://athlr.github.io/portfolio/static/img/manucar-form.jpg"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
@@ -228,7 +228,7 @@ export default function manucar() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/manucar-main.jpg"
+                src="http://athlr.github.io/portfolio/static/img/manucar-table.jpg"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
