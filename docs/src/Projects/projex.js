@@ -99,7 +99,7 @@ export default function projex() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/projex-my-projects.jpg"
+                src="http://athlr.github.io/portfolio/static/img/projex-my-projects.JPG"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
@@ -116,7 +116,7 @@ export default function projex() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/projex-my-projects-details.jpg"
+                src="http://athlr.github.io/portfolio/static/img/projex-my-projects-details.JPG"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
@@ -138,7 +138,7 @@ export default function projex() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/projex-projects.jpg"
+                src="http://athlr.github.io/portfolio/static/img/projex-projects.JPG"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
@@ -157,7 +157,7 @@ export default function projex() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/projex-tasks.jpg"
+                src="http://athlr.github.io/portfolio/static/img/projex-tasks.JPG"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
@@ -174,7 +174,7 @@ export default function projex() {
               </div>
               <img
                 alt="..."
-                src="http://athlr.github.io/portfolio/static/img/projex-notes.jpg"
+                src="http://athlr.github.io/portfolio/static/img/projex-notes.JPG"
                 className="rounded-lg mb-2"
               />
               <div className="text-md italic mb-6 text-center">
