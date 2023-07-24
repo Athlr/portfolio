@@ -2,14 +2,11 @@ import { useEffect } from "react";
 import { Carousel } from "flowbite-react";
 
 export default function VSA() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <div className="overflow-x-hidden w-full">
         <div>
-          <div className="flex justify-center items-center bg-gray-100">
+          <div className="flex justify-center items-center">
             <div className="flex flex-col md:flex-row justify-center items-center w-4/5">
               <div className="w-full md:w-1/2 h-1/3 text-center mt-12 px-6 mb-10 md:mb-0 ">
                 <div className="p-2">
@@ -40,7 +37,7 @@ export default function VSA() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center bg-white">
             <div className="w-1/2 mb-10">
               <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
               <div className="text-lg font-semibold mb-2">

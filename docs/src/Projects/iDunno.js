@@ -3,7 +3,7 @@ export default function iDunno() {
     <>
       <div className="overflow-x-hidden w-full">
         <div>
-          <div className="flex justify-center items-center bg-gray-100">
+          <div className="flex justify-center items-center">
             <div className="flex flex-col md:flex-row justify-center items-center w-4/5">
               <div className="w-full md:w-1/2 h-1/3 text-center mt-12 px-6 mb-10 md:mb-0 ">
                 <div className="p-2">
@@ -16,6 +16,25 @@ export default function iDunno() {
                 <div className="text-5xl mb-2">iDunno</div>
                 <div className="flex justify-center items-center">
                   <div className="w-5/6 lg:w-3/4 text-center">
+                    <a
+                      href="https://github.com/Athlr/iDunno"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex justify-center mb-2"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        className="bi bi-github"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                      </svg>
+                      <span className="ml-2 transition ease-in-out hover:text-slate-500">
+                        GitHub Repo
+                      </span>
+                    </a>
                     <div className="mb-5">
                       Random Restaurant Generation based on User & User's
                       Friends' preferences{" "}
@@ -37,8 +56,8 @@ export default function iDunno() {
                       <div className="font-semibold mr-2">Position:</div>
                       <div>Team Leader</div>
                     </div>
-                    <div className="flex text-left mb-12">
-                      <div className="font-semibold mr-2">Duration:</div>
+                    <div className="flex text-left">
+                      <div className="font-semibold mr-2 mb-12">Duration:</div>
                       <div>May 2023 - June 2023</div>
                     </div>
                   </div>
@@ -46,7 +65,7 @@ export default function iDunno() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center bg-white">
             <div className="w-1/2 mb-10">
               <hr className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
               <div className="aspect-video w-full">

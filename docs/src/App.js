@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
@@ -15,26 +16,32 @@ import Footer from "./Footer";
 function App() {
   return (
     <>
+      <ScrollToTop />
       <div>
         <Navbar />
-        <Routes>
-          <Route path="/">
-            <Route index element={<Home />} />
-            <Route path="/about">
-              <Route path="" element={<About />} />
-              <Route path="/about/vsa" element={<VSA />} />
-              <Route path="/about/dem" element={<DEM />} />
-              <Route path="/about/marshall-orientation" element={<OL />} />
+        <div className="bg-mainbody">
+          <Routes>
+            <Route path="/">
+              <Route index element={<Home />} />
+              <Route path="/about">
+                <Route path="" element={<About />} />
+                <Route path="/about/vsa" element={<VSA />} />
+                <Route path="/about/dem" element={<DEM />} />
+                <Route path="/about/marshall-orientation" element={<OL />} />
+              </Route>
+              <Route path="/projects">
+                <Route path="" element={<Projects />} />
+                <Route path="/projects/iDunno" element={<IDunno />} />
+                <Route path="/projects/manucar" element={<Manucar />} />
+                <Route path="/projects/projex" element={<Projex />} />
+                <Route
+                  path="/projects/genshin-calendar"
+                  element={<Genshin />}
+                />
+              </Route>
             </Route>
-            <Route path="/projects">
-              <Route path="" element={<Projects />} />
-              <Route path="/projects/iDunno" element={<IDunno />} />
-              <Route path="/projects/manucar" element={<Manucar />} />
-              <Route path="/projects/projex" element={<Projex />} />
-              <Route path="/projects/genshin-calendar" element={<Genshin />} />
-            </Route>
-          </Route>
-        </Routes>
+          </Routes>
+        </div>
         <Footer />
       </div>
     </>

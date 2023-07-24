@@ -4,9 +4,6 @@ import Lottie from "lottie-react";
 import CodingPerson from "./Lottie/Coding-person.json";
 
 export default function Projects() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <>
       <div className="overflow-x-hidden w-full">
@@ -33,11 +30,11 @@ export default function Projects() {
                     />
                   </div>
                   <div className="p-5 h-3/4">
-                    <a href="#">
+                    <div>
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         iDunno
                       </h5>
-                    </a>
+                    </div>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       iDunno is a random restaurant picker created to provide a
                       simple and innovative solution to take the guesswork out
@@ -46,7 +43,7 @@ export default function Projects() {
                       their friends' preferences, if they choose to do so.
                     </p>
                     <Link to="/projects/iDunno">
-                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-buttonColor hover:bg-buttonHover transition ease-in-out hover:duration-300">
                         Read more
                         <svg
                           aria-hidden="true"
@@ -75,11 +72,11 @@ export default function Projects() {
                     />
                   </div>
                   <div className="p-5 h-3/4">
-                    <a href="#">
+                    <div>
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         ManuCar
                       </h5>
-                    </a>
+                    </div>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       ManuCar is an app designed to assist automobile
                       dealerships in managing their operation. The platform
@@ -87,7 +84,7 @@ export default function Projects() {
                       employee management, sales records, and car appointments.
                     </p>
                     <Link to="/projects/manucar">
-                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-buttonColor hover:bg-buttonHover transition ease-in-out hover:duration-300">
                         Read more
                         <svg
                           aria-hidden="true"
@@ -116,11 +113,11 @@ export default function Projects() {
                     />
                   </div>
                   <div className="p-5 h-3/4">
-                    <a href="#">
+                    <div>
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Projex
                       </h5>
-                    </a>
+                    </div>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       Projex is a task and project management app that allows
                       users to create, organize, and prioritize tasks
@@ -129,7 +126,7 @@ export default function Projects() {
                       note instances for each of those tasks.
                     </p>
                     <Link to="/projects/projex">
-                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-buttonColor hover:bg-buttonHover transition ease-in-out hover:duration-300">
                         Read more
                         <svg
                           aria-hidden="true"
@@ -158,14 +155,14 @@ export default function Projects() {
                     />
                   </div>
                   <div className="p-5 h-3/4">
-                    <a href="#">
+                    <div>
                       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                         Genshin Calendar
                       </h5>
                       <div className="font-normal text-base mb-2">
                         In Progress
                       </div>
-                    </a>
+                    </div>
                     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                       Genshin Calendar is a helpful tool that keeps track of
                       time-gated materials required in order to level up and
@@ -173,7 +170,7 @@ export default function Projects() {
                       throughout Teyvat.
                     </p>
                     <Link to="/projects/genshin-calendar">
-                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-buttonColor hover:bg-buttonHover transition ease-in-out hover:duration-300">
                         Read more
                         <svg
                           aria-hidden="true"

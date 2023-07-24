@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mainbody: "#EAE7DC",
-        navFooter: "#D8C3A5",
+        mainbody: "#F2F1EF",
+        navFooter: "#A5978B",
+        // card: "#C4BBAF",
+        buttonColor: "#E84855",
+        buttonHover: "#BC4749",
       },
     },
   },

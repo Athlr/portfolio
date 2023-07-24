@@ -4,9 +4,6 @@ import Lottie from "lottie-react";
 import Coder from "./Lottie/Coder.json";
 
 export default function About() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <div className="overflow-x-hidden w-full">
       <div className="w-full pt-10">
@@ -68,14 +65,14 @@ export default function About() {
                   />
                 </div>
                 <div className="p-5 h-3/4">
-                  <a href="#">
+                  <div>
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                       Vietnamese Student Assoc.
                     </h5>
                     <div className="text-md font-semibold mb-2">
                       External Vice President
                     </div>
-                  </a>
+                  </div>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     VSA is a non-profit cultural organization that strives to
                     promote and preserve the Vietnamese culture. We are
@@ -83,7 +80,7 @@ export default function About() {
                     to build ever-lasting friendships.
                   </p>
                   <Link to="/about/vsa">
-                    <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-buttonColor hover:bg-buttonHover transition ease-in-out hover:duration-300">
                       Read more
                       <svg
                         aria-hidden="true"
@@ -112,14 +109,14 @@ export default function About() {
                   />
                 </div>
                 <div className="p-5 h-3/4">
-                  <a href="#">
+                  <div>
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                       Delta Epsilon Mu
                     </h5>
                     <div className="text-md font-semibold mb-2">
                       Social Chair
                     </div>
-                  </a>
+                  </div>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     A co-ed fraternity for students with interests in pre-health
                     or health-related fields. Members serve the community by
@@ -127,7 +124,7 @@ export default function About() {
                     and outreach programs.
                   </p>
                   <Link to="/about/dem">
-                    <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-buttonColor hover:bg-buttonHover transition ease-in-out hover:duration-300">
                       Read more
                       <svg
                         aria-hidden="true"
@@ -156,14 +153,14 @@ export default function About() {
                   />
                 </div>
                 <div className="p-5 h-3/4">
-                  <a href="#">
+                  <div>
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                       Marshall College Orientation
                     </h5>
                     <div className="text-md font-semibold mb-2">
                       Orientation Leader
                     </div>
-                  </a>
+                  </div>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     A program designed to support students in their transition
                     to UC San Diego and Marshall College. Collaborated with 40
@@ -171,7 +168,7 @@ export default function About() {
                     involvement for over 300 incoming students.
                   </p>
                   <Link to="/about/marshall-orientation">
-                    <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <div className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white rounded-lg bg-buttonColor hover:bg-buttonHover transition ease-in-out hover:duration-300">
                       Read more
                       <svg
                         aria-hidden="true"
