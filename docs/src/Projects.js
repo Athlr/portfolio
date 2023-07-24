@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <>
       <div className="overflow-x-hidden w-full">
-        <div className="pt-20">
+        <div className="pt-10">
           <div className="flex justify-center">
             <div className="w-1/2 h-1/3 text-center mt-12">
               <div className="text-5xl">Projects</div>

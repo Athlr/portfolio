@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="w-4/12">
           <hr className="my-2 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100" />
         </div>
-        <div className="text-center">
+        <div className="text-center text-black">
           <p>
             Aaron Tran
             <br />
